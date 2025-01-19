@@ -1,0 +1,97 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: lightgray;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .header .cart {
+            font-size: 24px;
+        }
+
+        .main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .main h2 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .category {
+            width: 100px;
+            height: 100px;
+            background-color: #4CAF50;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .tsh {
+            width: 200px;
+        }
+
+        .hd{
+            width: 200px;
+        }
+
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #f9f9f9;
+        }
+
+        .qr {
+            width: 150px;
+        }
+
+        .colors {
+            display: flex;
+            gap: 10px;
+        }
+
+        .color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+        .color.red {
+            background-color: red;
+        }
+
+        .color.blue {
+            background-color: blue;
+        }
+
+        .color.orange {
+            background-color: orange;
+        }
